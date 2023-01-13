@@ -1,0 +1,23 @@
+package AbstractClass;
+
+public class Solution {
+	  
+		        public static void main(String[] args) {  
+		              
+		             Animal animal = new Animal();  
+		             animal.eat();  
+		             animal.sleep();
+		             
+		             Bird bird = new Bird();  
+		             bird.eat();  
+		             bird.sleep();  
+		             bird.fly(); 
+		             
+		             WildAnimal wildanimal= new WildAnimal();
+		             wildanimal.eat();
+		             wildanimal.sleep();
+		             wildanimal.kill();
+		             
+		        }  
+		   }    
+

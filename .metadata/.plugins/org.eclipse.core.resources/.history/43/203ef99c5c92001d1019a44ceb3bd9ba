@@ -1,0 +1,28 @@
+package BankAccount;
+
+public class Accounts {
+
+		private double balance;
+		
+		//Set balance to 0.00
+		public Accounts() {
+			balance=0.0;
+		}
+		
+		//Deposit
+		public void deposit (double amount) {
+			balance = balance + amount;
+		}
+       //withdraw
+		public void withdraw(double amount) {
+			balance = balance - amount;
+		}
+		
+		//Get Balance 
+		public double getBalance() {
+			return balance;
+		
+		}
+		}
+
+

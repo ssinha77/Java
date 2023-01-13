@@ -1,0 +1,47 @@
+package question06;
+
+
+	import java.util.List;
+	import java.util.SortedMap;
+	import java.util.TreeMap;
+
+	public class Country {
+
+	    private static TreeMap<String,List<String>> countries = new TreeMap<>();
+
+
+
+
+	    public static List<String> getCountry(String countryName){
+	        List<String> list = countries.get(countryName);
+	        if(list == null || list.isEmpty()){
+	            return null;
+	        }
+	        return list;
+	    }
+
+	    public static void listingCountry(String countryName, List<String> district){
+	        countries.put(countryName,district);
+	    }
+
+	    public static TreeMap<String, List<String>> getCountries() {
+	        return countries;
+	    }
+
+	    public static void setCountries(TreeMap<String, List<String>> countries) {
+	        Country.countries = countries;
+	    }
+
+	    public static SortedMap<String, List<String>> getCountryBefore(String countryName){
+	        return countries.headMap(countryName);
+	    }
+
+	    public static SortedMap<String, List<String>> getCountryAfter(String countryName){
+	        return countries.tailMap(countryName);
+	    }
+
+
+
+	}
+
+}

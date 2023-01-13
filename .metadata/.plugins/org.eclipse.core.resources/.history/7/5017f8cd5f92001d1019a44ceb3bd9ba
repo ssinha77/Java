@@ -1,0 +1,40 @@
+package BankAccount;
+
+public class Accounts {
+private int accountNo;
+private String name;
+private double balance;
+
+public Accounts(int no, String name, double balance) {
+	this.accountNo = no;
+	this.name = name;
+	this.balance= 0.0;
+}
+		
+		//Set balance to 0.00
+		//public Accounts() {
+		//	balance=0.0;
+		//}
+		
+		//Deposit
+		public void deposit (double amount) {
+			balance = balance + amount;
+		}
+       //withdraw
+		public void withdraw(double amount) {
+			if(amount<=balance) {
+				balance = balance - amount;	
+			}
+			else {
+				System.err.println("Insufficient Funds");
+			}
+		}
+		
+		//Get Balance 
+		public double getBalance() {
+			return balance;
+		
+		}
+		}
+
+

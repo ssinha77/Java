@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\labuser\Documents\webservice2"/>
+			<item value="C:\Users\labuser\Documents\webservice1"/>
+			<item value="C:\Users\labuser\Documents\SpringBootJpa-Project-3-main"/>
+			<item value="C:\Users\labuser\Documents\Spring-Boot-Jpa-2-main"/>
+			<item value="C:\Users\labuser\Downloads\crudapp\crudapp"/>
+			<item value="C:\Users\labuser\Downloads\firstapp\firstapp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

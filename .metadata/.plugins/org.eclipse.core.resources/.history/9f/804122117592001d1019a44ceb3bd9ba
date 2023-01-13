@@ -1,0 +1,62 @@
+package library;
+
+public class Library {
+	private Author author;
+	private Book books;
+	
+	
+	public Library(Book books) {
+		super();
+		this.books = books;
+	}
+
+
+	public Library(Author author) {
+		super();
+		this.author = author;
+	}
+
+
+	public static void main (String args[]) {
+	Author[] authors= new Author[5];
+	authors[0] = new Author("Joseph", 56, 'M');
+	authors[1] = new Author("Joseph", 56, 'M');
+	authors[2] = new Author("Joseph", 56, 'F');
+	authors[3] = new Author("Joseph", 56, 'F');
+	authors[4] = new Author("Joseph", 56, 'M');
+	
+	Book[] books = new Book[5];
+	
+	books[0] = new Book( "A Lost Lady", Joseph , 700, 20);
+	
+	books[1] = new Book( "A Beautiful Evening", Jeh , 570, 50);
+	
+	books[2] = new Book( "Dusk to Dawn",Mariya, 300, 70);
+	
+	books[3] = new Book( "Journey of Life",Lily, 675, 90);
+	
+	books[4] = new Book( "Peace",Robert, 943, 70);
+	
+
+}
+
+
+	public Author getAuthor() {
+		return author;
+	}
+
+
+	public void setAuthor(Author author) {
+		this.author = author;
+	}
+
+
+	public Book getBooks() {
+		return books;
+	}
+
+
+	public void setBooks(Book books) {
+		this.books = books;
+	}
+}

@@ -1,0 +1,23 @@
+package BankAccount;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		//Create cust1
+		Accounts cust1= new Accounts();
+		cust1.deposit(2500);
+		//Create cust1
+		Accounts cust2= new Accounts();
+		cust2.deposit(5000);
+		//Create cust1
+		Accounts cust3= new Accounts();
+		cust3.deposit(3500);
+		
+		System.out.println(cust1.getBalance());
+		System.out.println(cust2.getBalance());
+		System.out.println(cust3.getBalance());
+		
+
+	}
+
+}

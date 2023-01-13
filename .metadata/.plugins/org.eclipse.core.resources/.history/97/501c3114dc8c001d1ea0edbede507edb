@@ -1,0 +1,5 @@
+package com.mycomp.firstapp.api;
+
+public class WelcomeAPI {
+
+}

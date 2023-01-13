@@ -1,0 +1,16 @@
+package library;
+
+public class Library {
+	
+	public static void main (String args[]) {
+		
+	Book[] books = new Book[5];
+	books[0] = new Book( "A Lost Lady","Joseph", 700, 20);
+	books[1] = new Book( "A Beautiful Evening","Jeh", 570, 50);
+	books[2] = new Book( "Dusk to Dawn","Mariya", 300, 70);
+	books[3] = new Book( "Journey of Life","Lily", 675, 90);
+	books[4] = new Book( "Robert", 943, 70);
+	
+
+}
+}
